@@ -11,7 +11,7 @@ function Poems({ content }) {
     const { projects } = content;
     return (
         <div>
-            <h2>Poems</h2>
+            <h2>Words that inspire me</h2>
             {
                 projects.map((project, idx) => (
                     <div key={idx}>

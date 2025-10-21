@@ -31,7 +31,7 @@ function ContentFactory({ id, isMobile }) {
       return <Contact content={item.content} />;
     case "projects":
       return <Projects content={item.content} />;
-    case "poems":
+    case "words":
       return <Poems content={item.content} />;
     default:
       return <div></div>;

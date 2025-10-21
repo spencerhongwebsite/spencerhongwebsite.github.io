@@ -18,7 +18,7 @@ function Shortcuts({ openExplorer, openMusicExplorer }) {
           name="windows_explorer"
           onClick={() => openExplorer()}
         />
-        <div>Spencer's life in text</div>
+        <div>Professional</div>
       </StyledShorcut>
       <StyledShorcut>
         <Icon
@@ -26,7 +26,7 @@ function Shortcuts({ openExplorer, openMusicExplorer }) {
           name="windows_explorer"
           onClick={() => openMusicExplorer()}
         />
-        <div>Spencer's life in music</div>
+        <div>Personal</div>
       </StyledShorcut>
       <StyledShorcut>
         <Icon
@@ -34,7 +34,7 @@ function Shortcuts({ openExplorer, openMusicExplorer }) {
           name="media_cd"
           onClick={() => startWebamp()}
         />
-        <div>Spencer's music picks</div>
+        <div>My music picks</div>
       </StyledShorcut>
     </div>
   );
